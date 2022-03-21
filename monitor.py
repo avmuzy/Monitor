@@ -22,10 +22,8 @@ cpu.pack()
 disk = Button(root, text='Disk')
 disk.pack()
 
-
-
-
-
+mem = Button(root, text='Mamory')
+mem.pack()
 
 
 root.mainloop()
