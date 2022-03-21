@@ -13,6 +13,15 @@ temp.pack()
 fan = Button(root, text='Fan speed')
 fan.pack()
 
+net = Button(root, text='Network')
+net.pack()
+
+cpu = Button(root, text='CPU')
+cpu.pack()
+
+disk = Button(root, text='Disk')
+disk.pack()
+
 
 
 
