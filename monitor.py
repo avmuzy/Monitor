@@ -1,7 +1,12 @@
 import tkinter
 import psutil
+
+
 print('The cpu usage is: ', psutil.cpu_percent(4))
 print('RAM memory % used is:' , psutil.virtual_memory()[2])
+print('CPU freq:', psutil.cpu_freq()[0])
+
+
 from tkinter import *
 root = Tk()
 
