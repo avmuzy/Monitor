@@ -1,7 +1,7 @@
 import tkinter
 import psutil
 print('The cpu usage is: ', psutil.cpu_percent(4))
-
+print('RAM memory % used is:' , psutil.virtual_memory()[2])
 from tkinter import *
 root = Tk()
 
