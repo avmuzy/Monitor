@@ -1,4 +1,7 @@
 import tkinter
+import psutil
+print('The cpu usage is: ', psutil.cpu_percent(4))
+
 from tkinter import *
 root = Tk()
 
