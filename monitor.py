@@ -6,6 +6,7 @@ print('The cpu usage is: ', psutil.cpu_percent(4))
 print('RAM memory % used is:' , psutil.virtual_memory()[2])
 print('CPU freq:', psutil.cpu_freq()[0])
 print('Disk usage:', psutil.disk_usage('/')[3])
+print('swap memory:', psutil.swap_memory())
 
 from tkinter import *
 root = Tk()
