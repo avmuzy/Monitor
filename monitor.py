@@ -13,6 +13,7 @@ text.pack()
 
 
 def cpu():
+
     print('The cpu usage is: ', psutil.cpu_percent(4))
 
 
