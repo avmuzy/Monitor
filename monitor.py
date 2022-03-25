@@ -1,7 +1,9 @@
-import tkinter
+
 import psutil
 
 from tkinter import *
+
+
 root = Tk()
 
 root.geometry(newGeometry=str('300x400'))
