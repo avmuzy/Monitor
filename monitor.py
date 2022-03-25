@@ -1,13 +1,6 @@
 import tkinter
 import psutil
 
-
-
-print('RAM memory % used is:', psutil.virtual_memory()[2])
-print('CPU freq:', psutil.cpu_freq()[0])
-print('Disk usage:', psutil.disk_usage('/')[3])
-print('Swap memory:', psutil.swap_memory()[3])
-
 from tkinter import *
 root = Tk()
 
@@ -28,6 +21,9 @@ def disk():
 def swapmem():
     print('Swap memory:', psutil.swap_memory()[3])
 
+def ram():
+    print('RAM memory % used is:', psutil.virtual_memory()[2])
+
 
 cpu = Button(root, text='CPU', command=cpu)
 cpu.pack()
@@ -37,6 +33,9 @@ disk.pack()
 
 swapmem = Button(root, text='Swap Memory', command=swapmem)
 swapmem.pack()
+
+ram = Button(root, text='Ram Memory', command=ram)
+ram.pack()
 
 
 root.mainloop()
