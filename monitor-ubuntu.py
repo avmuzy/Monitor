@@ -38,7 +38,7 @@ def swap():
 
 
 def sens():
-    print('Sensors Temperature', psutil.sensors_temperatures())
+    print('Sensors Temperature', psutil.psutil.sensors_temperatures()['acpitz'][0])
 
 
 def battery():
