@@ -1,2 +1,2 @@
 # Monitor
-system monitor
+Monitor do sistema com informações sobre uso da CPU, memoria RAm, uso do disco, batreia...
